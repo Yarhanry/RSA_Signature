@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RSA_Signature:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RSA_Signature</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RSA_Signature-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="RSA_Signature:war exploded" />
+    </root>
+  </artifact>
+</component>

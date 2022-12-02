@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/dwp2x/wp10532936.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body {
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 600px;
+    display: flex;
+    /* 设置同一行子元素在X轴的对齐方式 */
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: rgba(35, 146, 194, 0.5);
+    box-shadow: 7px 7px 17px rgba(67, 129, 66, 0.7);
+    border-radius: 70px;
+}
+
+.box {
+    text-align: center;
+}
+
+.input {
+    height: 25px;
+    border-radius: 6px;
+    box-shadow: 7px 7px 17px rgba(67, 129, 66, 0.1);
+}
+
+.input-botton {
+    margin-top: 10px;
+    border-radius: 8px;
+    height: 40px;
+    background-color: rgb(69, 160, 69);
+    box-shadow: 7px 7px 17px rgba(67, 129, 66, 0.3);
+
+}
+
+.lianjie {
+    color: rgb(137, 119, 139);
+    text-decoration: none;
+}
+
+.font {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
